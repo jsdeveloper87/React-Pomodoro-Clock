@@ -1,3 +1,5 @@
+$green-glow: 0 0 1px green, 0 0 2px green, 0 0 3px green, 0 0 4px green, 0 0 5px green, 0 0 6px green, 0 0 7px green;
+
 @font-face {
   font-family: "Digital";
   src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
@@ -5,11 +7,11 @@
 }
 
 body {
-  background: #1E555C;
+  background: url("https://cdn.wallpapersafari.com/82/45/qrDf6Y.jpg");
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
-  font-family: 'Righteous';
+  font-family: 'orbitron';
   #container {
     display: flex;
     height: 100vh;
@@ -37,7 +39,8 @@ body {
       }
     }
     .timer {
-      border: 7px solid #13353a;
+      border: 7px solid green;
+      box-shadow: $green-glow;
       margin: 20px auto 10px auto;
       width: 270px;
       height: 160px;
@@ -73,15 +76,3 @@ body {
   }
 }
 
-.author {
-  text-align: center;
-  font-family: Share Tech Mono, sans;
-  margin-top: 15px;
-  font-size: 14px;
-  color: #a50d0d;;
-  a {
-    text-decoration: none;
-    color: #00264d;
-    line-height: 26px;
-  }
-}
