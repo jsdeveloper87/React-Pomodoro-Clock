@@ -156,7 +156,7 @@ class Timer extends React.Component {
     return (
       <div>
         <div className="main-title">
-          Pomodoro Clock
+          React Pomodoro Clock
         </div>
         <TimerLengthControl 
           titleID="break-label"   minID="break-decrement"
@@ -186,11 +186,6 @@ class Timer extends React.Component {
           <button id="reset" onClick={this.reset}>
             <i className="fa fa-refresh fa-2x"/>
           </button>
-        </div>
-        <div className="author"> Designed and Coded by <br />
-           
-            Jesse Cole
-          
         </div>
         <audio id="beep" preload="auto" 
           src="https://goo.gl/65cBl1"
